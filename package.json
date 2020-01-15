@@ -1,0 +1,23 @@
+{
+  "name": "block-meower",
+  "version": "1.0.0",
+  "description": "A barebones node.js bot that notifies of new blocks... with cat images!!!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Meowcoin-Project/block-meower.git"
+  },
+  "author": "JSKitty",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Meowcoin-Project/block-meower/issues"
+  },
+  "homepage": "https://github.com/Meowcoin-Project/block-meower#readme",
+  "dependencies": {
+    "bitcoin-rpc-promise": "^2.1.6",
+    "discord.js": "^11.5.1"
+  }
+}
