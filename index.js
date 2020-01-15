@@ -4,7 +4,7 @@ let CwyptoRPC = require('bitcoin-rpc-promise') /* Cwyptocuwwency RPC Intewface *
 
 /* Inyitiawize Discowd Webhook and Meowcoin RPC */
 let bot = new Discowd.Client();
-let hook = new Discowd.WebhookClient("667038934592651274", "f7Y7bsDlExJpeTwk9rJTVAA9X-6tc-SUB-0lPIk--y9y_s-V5iwDiqIOykoTVl2K721Y");
+let hook = new Discowd.WebhookClient("<CLIENT_ID>", "<CLIENT_SECRET>");
 let rpc = new CwyptoRPC('http://user:pass@localhost:26211');
 
 /* Main bot stuffsies uwu */
